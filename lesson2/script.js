@@ -5,7 +5,7 @@ let app = new Vue({
   // provide data for bindings
   data: {
     names: ['Emma', 'Brandon', 'Lucy', 'Jorge'],
-    newName: ''
+    newName: ""
   },
   // custom methods
   methods: {

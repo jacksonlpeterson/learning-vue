@@ -3,14 +3,18 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Learning Vue</title>
+  <title>Learning Vue 2</title>
 </head>
 
 <body>
+  
   <div id="root">
+    
     <ul>
+     
       <!-- Loop through each name in names and render it. This will create a set of li elements. The v-text
       directive will set the list element value to the name -->
+     
       <li v-for="name in names" v-text="name"></li>
     </ul>
     <!-- Let the user enter a new name and bind it to the newName property -->
