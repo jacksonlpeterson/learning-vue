@@ -11,7 +11,7 @@ let app = new Vue({
       },
       {
         description: "Create some fish",
-        completed: true
+        completed: false
       },
       {
         description: "Create more loaves of bread",
